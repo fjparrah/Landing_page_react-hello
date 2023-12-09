@@ -14,12 +14,12 @@ const Card = () => {
 	return (
 
         <div className="container my-5">
-          <div className="row">
+          <div className="row d-flex justify-content-center">
                     <>
                     {cards.map(function(card){
                         return (
                         
-                                        <div className="card mx-2" style={{width: "18rem"}}>
+                                        <div className="card mx-2 my-2" style={{width: "18rem"}}>
                                                     <img src={card.imageUrl} className="card-img-top" alt="..."/>
                                                     <div className="card-body">
                                                         <h5 className="card-title">{card.title}</h5>
